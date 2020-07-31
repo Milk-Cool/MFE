@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap');
+		</style>
+		<link href="style.css" rel="stylesheet">
+		<script src="script.js"></script>
+		<meta charset="utf-8">
+		<title>Milk File Extensions</title>
+	</head>
+	<body bgcolor="#52CDF5">
+		<center>
+		<h1 style="font-family: 'Rowdies', cursive;color: blue">Milk Files</h1>
+		<h3 style="color: darkslateblue">
+			Supported extensions:
+			<br>
+			.yt - YouTube video
+			<br>
+			.sc - Scratch project
+			<br>
+			.fb - Facebook publication
+		</h3>
+		<input type="file" onchange="readFile(this)" accept=".yt, .sc, .fb">
+		<br>
+		<iframe id="x" width="654" height="366" allowfullscreen src></iframe>
+		</center>
+	</body>
+</html>
