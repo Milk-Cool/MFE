@@ -5,4 +5,6 @@ Milk File Extensions
 
 > File examples are in _examples_ folder.
 
+**Added .pb, .ig, .im, .gp file extensions in version 2.**
+
 #### Maybe more extensions in future? ( ͡° ͜ʖ ͡°)

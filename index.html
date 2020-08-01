@@ -11,8 +11,8 @@
 	</head>
 	<body bgcolor="#52CDF5">
 		<center>
-		<h1 style="font-family: 'Rowdies', cursive;color: blue">Milk Files</h1>
-		<h3 style="color: darkslateblue">
+		<h2 style="font-family: 'Rowdies', cursive;color: blue">Milk Files</h2>
+		<h4 style="color: darkslateblue">
 			Supported extensions:
 			<br>
 			.yt - YouTube video
@@ -20,10 +20,19 @@
 			.sc - Scratch project
 			<br>
 			.fb - Facebook publication
-		</h3>
-		<input type="file" onchange="readFile(this)" accept=".yt, .sc, .fb">
+			<br>
+			.pb - Pastebin Paste
+			<br>
+			.ig - Instagram publication
+			<br>
+			.im - Imgur post
+			<br>
+			.gp - Giphy GIF
+		</h4>
+		<input type="file" onchange="readFile(this)" accept=".yt, .sc, .fb, .pb, .ig, .im, .gp">
 		<br>
-		<iframe id="x" width="654" height="366" allowfullscreen src></iframe>
+		<br>
+		<iframe id="x" width height allowfullscreen src></iframe>
 		</center>
 	</body>
 </html>
